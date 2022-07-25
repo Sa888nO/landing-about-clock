@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+.button-block {
+  display: flex;
+}
+.header {
+  display: flex;
+  background-color: #f8f8f8;
+
+  &_clock-model {
+    font-size: 24px;
+  }
+  &_main-word {
+    font-size: 250px;
+  }
+  &_info-about-clock {
+    font-size: 32px;
+  }
+  &_button-buy {
+    font-size: 32px;
+  }
+  &_price {
+    font-size: 32px;
+  }
+  &_model-picture {
+    width: 408px;
+    height: 720px;
+    background-color: aqua;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &_clock-picture {
+    width: 420px;
+    height: 630px;
+    background-color: beige;
+  }
+}
