@@ -4,36 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <title>WatchesPage</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
         <div>
-          <div class="header_clock-model">mor705</div>
-          <div class="header_main-word">Watch</div>
-          <div class="header_info-about-clock">
+          <h1 class="header_clock-model">mor705</h1>
+          <p class="header_main-word">Watch</p>
+          <p class="header_info-about-clock">
             The watch also features a tough and durable sapphire a Swiss Sellita
             SW200-1 automatic winding movement that has a power reserve
-          </div>
+          </p>
           <div class="button-block">
-            <a href="/" class="header_button-buy">Buy watch</a>
+            <a href="/" class="header_link-buy">Buy watch</a>
             <div class="header_price">1700$</div>
           </div>
         </div>
-        <img class="header_model-picture" alt="Model mor705" />
+        <img
+          srcset="images/mor705.png, images/mor705@2x.png 2x"
+          src="images/mor705.png"
+          class="header_model-picture"
+          alt="Model mor705"
+        />
       </header>
       <main class="main">
-        <div class="main_sub-text">popular</div>
-        <div class="main_title">Models</div>
-        <div class="main_clock-picture"></div>
+        <p class="main_sub-text">popular</p>
+        <p class="main_title">Models</p>
+        <div class="block-picture">
+          <img
+            srcset="images/son22.png, images/son22@2x.png 2x"
+            src="images/son22.png"
+            class="block-picture_picture"
+            alt="Model Son22"
+          />
+        </div>
         <div class="info-block">
           <div class="info-block_title">Son22</div>
           <div class="info-block_info">
@@ -42,7 +54,14 @@
             power reserve.
           </div>
         </div>
-        <div class="main_clock-picture"></div>
+        <div class="block-picture">
+          <img
+            srcset="images/sw12.png, images/sw12@2x.png 2x"
+            src="images/sw12.png"
+            class="block-picture_picture"
+            alt="Model Sw12"
+          />
+        </div>
         <div class="info-block">
           <div class="info-block_title">Sw12</div>
           <div class="info-block_info">
@@ -52,7 +71,7 @@
         </div>
         <div class="main_product-description-title">Product description</div>
         <div class="main_line"></div>
-        <div class="main_productdescription">
+        <div class="main_product-description">
           Inspired by the WWI trench watch, this timepiece has a contemporary
           design with an urban style and a vintage soul. The 22 Design Studio
           Concrete Sector Watch reinterprets the old timepiece with a concrete

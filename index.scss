@@ -1,15 +1,13 @@
-body {
-  margin: 0px;
-}
 * {
-  box-sizing: border-box;
+  margin: 0px;
   font-family: "League Spartan", sans-serif;
+  box-sizing: border-box;
 }
 .wrapper {
   width: 1440px;
   margin: 0 auto;
 }
-.button-block {
+.buy-block {
   display: flex;
 }
 .header {
@@ -25,7 +23,7 @@ body {
   &_info-about-clock {
     font-size: 32px;
   }
-  &_button-buy {
+  &_link-buy {
     font-size: 32px;
   }
   &_price {
@@ -34,7 +32,6 @@ body {
   &_model-picture {
     width: 408px;
     height: 720px;
-    background-color: aqua;
   }
 }
 
