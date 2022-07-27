@@ -1,4 +1,6 @@
 * {
+  padding: 0;
+  font-weight: normal;
   margin: 0px;
   font-family: "League Spartan", sans-serif;
   box-sizing: border-box;
@@ -11,28 +13,62 @@
 
 .buy-block {
   display: flex;
+  width: 421px;
+  height: 82px;
 }
 
 .header {
   display: flex;
+  gap: 24px;
   background-color: #f8f8f8;
+  padding: 0 240px 168px 133px;
+  margin-bottom: 43px;
 }
 .header_clock-model {
+  margin-bottom: 53px;
   font-size: 24px;
 }
-.header_main-word {
+.header_watch-word {
+  margin-bottom: 43px;
+  color: #272727;
   font-size: 250px;
 }
 .header_info-about-clock {
+  margin-bottom: 61px;
+  line-height: 50px;
   font-size: 32px;
 }
 .header_link-buy {
+  height: 100%;
+  width: 278px;
   font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161515;
+  color: #ffffff;
+  text-decoration: none;
 }
 .header_price {
+  height: 100%;
+  width: 143px;
   font-size: 32px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .header_model-picture {
+  width: 408px;
+  height: 720px;
+}
+
+.header-content-container {
+  width: 640px;
+  padding-top: 104px;
+}
+
+.header_picture-block {
   width: 408px;
   height: 720px;
 }
@@ -43,8 +79,36 @@
   justify-content: center;
   align-items: center;
 }
+.main_content-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 530px;
+}
+.main_sub-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.main_title {
+  font-size: 72px;
+  margin-bottom: 72px;
+}
 .main_clock-picture {
   width: 420px;
   height: 630px;
   background-color: beige;
+}
+
+.watch-card {
+  width: 100%;
+}
+
+.block-picture {
+  background-color: #f8f8f8;
+  width: 420px;
+  height: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
