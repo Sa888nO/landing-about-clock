@@ -84,7 +84,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 530px;
+  width: 537px;
 }
 .main_sub-text {
   font-size: 24px;
@@ -94,6 +94,23 @@
   font-size: 72px;
   margin-bottom: 72px;
 }
+.main_product-description-title {
+  font-size: 32px;
+  margin-bottom: 9px;
+}
+.main_line {
+  border: solid 1px #707070;
+  width: 180px;
+  margin-bottom: 49px;
+}
+.main_product-description {
+  font-size: 24px;
+  line-height: 41px;
+  text-align: center;
+}
+.main_product-description a {
+  color: #bb8b5d;
+}
 .main_clock-picture {
   width: 420px;
   height: 630px;
@@ -101,7 +118,25 @@
 }
 
 .watch-card {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+  align-items: center;
+  margin-bottom: 85px;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  font-size: 32px;
+  text-align: center;
+}
+.info-block_title {
+  font-weight: bold;
+}
+.info-block_info {
+  line-height: 50px;
 }
 
 .block-picture {
