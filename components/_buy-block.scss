@@ -1,0 +1,20 @@
+.buy-block {
+  display: flex;
+  flex: none;
+  width: 421px;
+  height: 82px;
+
+  a {
+    @include centerContent;
+    width: 65%;
+    background-color: $black;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &_price {
+    @include centerContent;
+    width: 35%;
+    background-color: $white;
+  }
+}

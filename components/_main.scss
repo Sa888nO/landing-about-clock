@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-width: 1440px;
+
+  &_content {
+    @include centerContent;
+    flex-direction: column;
+    width: 50%;
+    max-width: 537px;
+    margin: 0 auto;
+  }
+  &_sub-text {
+    font-size: $small;
+    margin-bottom: 20px;
+  }
+  &_title {
+    font-size: $large;
+    margin-bottom: 72px;
+  }
+  &_product-description-title {
+    margin-bottom: 9px;
+  }
+  &_line {
+    border-bottom: solid 1px $gray;
+    width: 180px;
+    margin-bottom: 49px;
+  }
+  &_product-description {
+    font-size: $small;
+    line-height: 41px;
+    text-align: center;
+    a {
+      color: $brown;
+    }
+  }
+}

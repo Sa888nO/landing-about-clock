@@ -1,150 +1,15 @@
+@import "./variables";
+@import "./mixins";
+@import "./components/header";
+@import "./components/buy-block";
+@import "./components/main";
+@import "./components/watch-card";
+
 * {
   padding: 0;
-  font-weight: normal;
   margin: 0px;
+  font-weight: normal;
   font-family: "League Spartan", sans-serif;
   box-sizing: border-box;
-}
-
-.wrapper {
-  width: 1440px;
-  margin: 0 auto;
-}
-
-.buy-block {
-  display: flex;
-  width: 421px;
-  height: 82px;
-}
-
-.header {
-  display: flex;
-  gap: 24px;
-  background-color: #f8f8f8;
-  padding: 0 240px 168px 133px;
-  margin-bottom: 43px;
-
-  &_clock-model {
-    margin-bottom: 53px;
-    font-size: 24px;
-  }
-  &_watch-word {
-    margin-bottom: 43px;
-    color: #272727;
-    font-size: 250px;
-  }
-  &_info-about-clock {
-    margin-bottom: 61px;
-    line-height: 50px;
-    font-size: 32px;
-  }
-  &_link-buy {
-    height: 100%;
-    width: 278px;
-    font-size: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #161515;
-    color: #ffffff;
-    text-decoration: none;
-  }
-  &_price {
-    height: 100%;
-    width: 143px;
-    font-size: 32px;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  &_model-picture {
-    width: 408px;
-    height: 720px;
-  }
-}
-
-.header-content-container {
-  width: 640px;
-  padding-top: 104px;
-}
-.header_picture-block {
-  width: 408px;
-  height: 720px;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  &_content-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 537px;
-  }
-  &_sub-text {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  &_title {
-    font-size: 72px;
-    margin-bottom: 72px;
-  }
-  &_product-description-title {
-    font-size: 32px;
-    margin-bottom: 9px;
-  }
-  &_line {
-    border: solid 1px #707070;
-    width: 180px;
-    margin-bottom: 49px;
-  }
-  &_product-description {
-    font-size: 24px;
-    line-height: 41px;
-    text-align: center;
-    a {
-      color: #bb8b5d;
-    }
-  }
-
-  &_clock-picture {
-    width: 420px;
-    height: 630px;
-    background-color: beige;
-  }
-}
-
-.watch-card {
-  display: flex;
-  flex-direction: column;
-  gap: 67px;
-  align-items: center;
-  margin-bottom: 85px;
-}
-
-.info-block {
-  display: flex;
-  flex-direction: column;
-  gap: 17px;
-  font-size: 32px;
-  text-align: center;
-  &_title {
-    font-weight: bold;
-  }
-  &_info {
-    line-height: 50px;
-  }
-}
-
-.block-picture {
-  background-color: #f8f8f8;
-  width: 420px;
-  height: 630px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: $standard;
 }

@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  background-color: $white-semi-gray;
+  padding: 0 240px 168px 133px;
+  margin-bottom: 43px;
+  min-width: 1440px;
+
+  &_info-block {
+    width: 640px;
+    padding-top: 104px;
+  }
+
+  &_model {
+    margin-bottom: 53px;
+    font: {
+      size: $small;
+      weight: 300;
+    }
+  }
+  &_watch-word {
+    margin-bottom: 43px;
+    color: $black-semi-gray;
+    font: {
+      size: $maximum;
+      weight: 300;
+    }
+  }
+  &_info {
+    margin-bottom: 61px;
+    line-height: 50px;
+    font: {
+      size: $standard;
+      weight: 300;
+    }
+  }
+}

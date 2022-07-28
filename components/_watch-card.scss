@@ -1,0 +1,30 @@
+.watch-card {
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+  align-items: center;
+  margin-bottom: 85px;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  text-align: center;
+  &_title {
+    font-weight: bold;
+  }
+  &_info {
+    font-weight: 300;
+    line-height: 50px;
+  }
+}
+
+.block-picture {
+  background-color: #f8f8f8;
+  width: 420px;
+  height: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
